@@ -1,6 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <h1>Quienes somos?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, modi. Architecto veniam soluta cumque fugiat cupiditate repellat aspernatur nostrum mollitia, ab, nisi officiis fugit commodi delectus quas reiciendis perferendis eius!</p>
   </div>
 </template>
 
