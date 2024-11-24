@@ -1,25 +1,25 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
   <header>
-    <div class="wrapper">
-      <HelloWorld msg="Bienvenido a la pagina principal" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/portal">Portal</RouterLink>
-        <RouterLink to="/about">Nosotros</RouterLink>
-        
-      </nav>
-    </div>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/acerca">Acerca</a>
+    </nav>
   </header>
 
-  <RouterView />
-</template>
+  <body>
 
+  </body>
+  <RouterView />
+  <footer>
+
+  </footer>
+</template>
+<!--
 <style scoped>
 header {
   line-height: 1.5;
@@ -69,8 +69,9 @@ nav a:first-of-type {
 
   header .wrapper {
     display: flex;
-    place-items: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   nav {
@@ -83,3 +84,4 @@ nav a:first-of-type {
   }
 }
 </style>
+-->
