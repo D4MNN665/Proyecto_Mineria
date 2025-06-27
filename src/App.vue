@@ -1,13 +1,15 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+
 </script>
 
 <template>
   <header>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <nav>
       <a href="/">Inicio</a>
-      <a href="/dashboard">Dashboard</a>
-      <a href="/acerca">Acerca</a>
+
+
     </nav>
   </header>
 
@@ -19,6 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
   </footer>
 </template>
+
 <!--
 <style scoped>
 header {
